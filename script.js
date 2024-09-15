@@ -36,8 +36,8 @@ function verificarLetraOcorrencia(str) {
 }
 
 function soma() {
-  indice = 12;
-  soma = 0;
+ const indice = 12;
+ let soma = 0;
   for (let k = 1; k < indice; k += 1) {
     soma += k;
   }
